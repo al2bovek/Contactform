@@ -1,0 +1,88 @@
+
+body *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+.container {
+    width: 800px;
+    margin: 100px auto;
+    padding: 80px 90px 90px;
+    border-radius: 3px;
+    background-color: #D3E5FD;
+    
+  }
+  h1 {
+    position: absolute;
+    background-color: #FDFEFF;
+    width: 620px;
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .top {
+    margin-top: 15px;
+    margin-left: 55px;
+    color: #2D38F4;
+  }
+form {
+  width: 620px;
+  margin-top: 45px ;
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(#FDFEFF, #FDFEFF) ;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 3px;
+  font-size: 10px;
+}
+input {
+  width: 250px;
+  height: 50px;
+  padding: 5px 10px;
+  font-size: large;
+  margin: 16px 8px auto;
+  border-radius: 6px;
+  border-color: transparent;
+  font-size: 14px;
+  }
+  ::-webkit-input-placeholder {
+    color: #2D38F4;
+  }
+#adress {
+  height: 55px;
+}
+#message {
+  height: 75px;}
+
+ #adress, #message {
+  width: 520px;
+}
+.bottom {
+  color: #FDFEFF;
+  background-color: #233BF5;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 25px;
+  cursor: pointer;
+  
+}
+.down {
+  color: #69E1BD ;
+  margin-bottom: 22px;
+  margin-top: -22px;
+  font-size: 13px;
+  font-weight: 600;
+}
+#fname, #lname {
+  background: linear-gradient(#E7E9FE, #DDE2FF);
+}
+#email, #tel {
+  background: linear-gradient(#DDE2FF, #C7CDFD);
+}
+#adress, #message {
+  background: linear-gradient(#C7CDFD, #A4B2F9 );
+}
+
